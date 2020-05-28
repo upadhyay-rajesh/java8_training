@@ -84,4 +84,20 @@ public class Employee {
 		return per;
 	}
 	
+	public void print() {
+		System.out.println("Id : "+id+" Name : "+name+" Date of Birth :"+dob+" Salary : "+income+" Gender : "+gender);
+	}
+	
 }
+
+
+
+
+
+
+
+
+
+
+
+
