@@ -15,7 +15,7 @@ public class Observer_Demo {
 		//jdk8 approach
 		f.registerObserver((String tweet)->{
 			if(tweet !=null  && tweet.contains("Trumph")) {
-				System.out.println("yet another new is related with Donald "+tweet);
+				System.out.println("yet another news is related with Donald "+tweet);
 			}
 			
 		});
