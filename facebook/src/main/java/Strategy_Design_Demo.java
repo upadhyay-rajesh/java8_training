@@ -3,7 +3,7 @@ public class Strategy_Design_Demo {
 
 	public static void main(String[] args) {
 		Validator vv=new Validator(new IsNumeric());
-		System.out.println(vv.validate("123"));
+		//System.out.println(vv.validate("123"));
 		
 		Validator vv1=new Validator(new IsAlllowercase());
 		System.out.println(vv1.validate("abcd"));
